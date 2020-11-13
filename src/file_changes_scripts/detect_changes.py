@@ -1,4 +1,6 @@
 import os
+import subprocess
 
 if __name__ == "__main__":
-    os.system('git status | grep "nothing to commit, working tree clean"')
+    output = subprocess.check_output('git status', shell=True)
+    print(str(output))
