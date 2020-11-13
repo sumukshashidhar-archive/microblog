@@ -15,4 +15,4 @@ if __name__ == "__main__":
             print("Clean")
         else:
             git_add_and_commit()
-        time.sleep(120)
+        time.sleep(10)
