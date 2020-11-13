@@ -1,2 +1,2 @@
 # microblog
-A simple nodejs based personal blog platform
+A personal blog and logfile for hackers!
